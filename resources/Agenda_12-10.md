@@ -2,6 +2,7 @@ Agenda
 =======
 
  - Scratch and Makey Makey activity
+    - Makey Makey: http://makeymakey.com/
  - Overview of curricula
     - Exploring CS (no license needed)
     - AP CSP (more advanced ECS)
