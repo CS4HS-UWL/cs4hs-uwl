@@ -25,7 +25,6 @@ Python
 The following programming sessions demonstrate the same programs in Python at the same points in development.
 
 First version of number guessing game for python:
-
 https://repl.it/ElBq/0
 
 Second version:
