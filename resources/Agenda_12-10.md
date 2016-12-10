@@ -10,6 +10,8 @@ Agenda
        - http://apcsp.org/
     - AP Java A (true replacement for first programming class in college)
        - http://apcentral.collegeboard.com/apc/public/courses/teachers_corner/4483.html
+    - Praxis Exam to gain 405 license
+       - EdX course for preparation: https://www.edx.org/course/foundations-computer-science-teachers-utaustinx-ut-wtcs-15-01x
  - Abstraction: Activity Diagrams
     - slides: cs4hs-uwl/resources/diagrams.pptx
  - Programming in Scratch and Python (see cs4hs-uwl/resources/python_v_scratch.md)
