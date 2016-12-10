@@ -5,8 +5,11 @@ Agenda
     - Makey Makey: http://makeymakey.com/
  - Overview of curricula
     - Exploring CS (no license needed)
+       - http://www.exploringcs.org/
     - AP CSP (more advanced ECS)
+       - http://apcsp.org/
     - AP Java A (true replacement for first programming class in college)
+       - http://apcentral.collegeboard.com/apc/public/courses/teachers_corner/4483.html
  - Abstraction: Activity Diagrams
     - slides: cs4hs-uwl/resources/diagrams.pptx
  - Programming in Scratch and Python (see cs4hs-uwl/resources/python_v_scratch.md)
