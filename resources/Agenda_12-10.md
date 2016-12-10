@@ -8,7 +8,7 @@ Agenda
     - AP Java A (true replacement for first programming class in college)
  - Abstraction: Activity Diagrams
     - slides: cs4hs-uwl/resources/diagrams.pptx
- - Programming in Scratch and Python (cs4hs-uwl/resources/python_v_scratch.md)
+ - Programming in Scratch and Python (see cs4hs-uwl/resources/python_v_scratch.md)
     - Python programming environment: https://repl.it/
        - You can use this online environment for teaching and developing small programs in a wide variety of languages.
     - Python documentation: https://www.python.org/
