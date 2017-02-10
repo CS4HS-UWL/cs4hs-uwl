@@ -48,15 +48,17 @@ Also, the captions are correct which is nice for hearing impaired students or la
     
     - Lesson 7: Encoding and Sending Formatted Text https://curriculum.code.org/csp/unit1/7/
     We know that data is sent across the wire as binary bits.  We also know there is a specific way we can encode characters called ASCII.  In this lesson, we will work in pairs to invent a text formatting language that allows us to not only send text information but make it look pretty.  The challenge is that the simulator can only send ASCII characters, so the text formatting language can only use those values to represent the formatting and the data.
+        
         o Link to tool so you can send messages to your partner: http://studio.code.org/sections/CZYMXP
         o How to create your own class so your students can do this activity
-             + login as a teacher
-             + teacher dashboard: https://code.org/teacher-dashboard#/
-             + student accounts and progress > https://code.org/teacher-dashboard#/sections
-             + create the section
-             + manage students to create accounts
-             + you can use email addresses to create accounts or random words.  I used random words today to not conflict with actual accounts.  They can create a password list handout for easy account management!  :)
-             + check out progress for your class.  My CT100 class from last semester: https://code.org/teacher-dashboard#/sections/810726/progress
+        
+            + login as a teacher
+            + teacher dashboard: https://code.org/teacher-dashboard#/
+            + student accounts and progress > https://code.org/teacher-dashboard#/sections
+            + create the section
+            + manage students to create accounts
+            + you can use email addresses to create accounts or random words.  I used random words today to not conflict with actual accounts.  They can create a password list handout for easy account management!  :)
+            + check out progress for your class.  My CT100 class from last semester: https://code.org/teacher-dashboard#/sections/810726/progress
         
         https://curriculum.code.org/csp/unit1/7/
         Click on go to tool on code studio: https://studio.code.org/s/csp1
