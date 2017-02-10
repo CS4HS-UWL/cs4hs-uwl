@@ -50,6 +50,13 @@ Also, the captions are correct which is nice for hearing impaired students or la
     We know that data is sent across the wire as binary bits.  We also know there is a specific way we can encode characters called ASCII.  In this lesson, we will work in pairs to invent a text formatting language that allows us to not only send text information but make it look pretty.  The challenge is that the simulator can only send ASCII characters, so the text formatting language can only use those values to represent the formatting and the data.
     
         - Link to tool so you can send messages to your partner: http://studio.code.org/sections/CZYMXP
+            
+            + Login using the random words I gave you.
+            
+            + Scroll down to Stage 7, and select Internet Simulator
+            
+            + before working on the protocol, it is useful to just get used to how the tool works.  Send some messages to each other in plain text.
+            + now that you know how messages are sent, discuss with your partner the protocol for text markup and send some test messages.  Make sure your partner can correctly interpret your markup.
         
         - How to create your own class so your students can do this activity
         
@@ -67,6 +74,4 @@ Also, the captions are correct which is nice for hearing impaired students or la
             
             + check out progress for your class.  My CT100 class from last semester: https://code.org/teacher-dashboard#/sections/810726/progress
         
-        https://curriculum.code.org/csp/unit1/7/
-        Click on go to tool on code studio: https://studio.code.org/s/csp1
         
