@@ -49,7 +49,7 @@ Also, the captions are correct which is nice for hearing impaired students or la
     - Lesson 7: Encoding and Sending Formatted Text https://curriculum.code.org/csp/unit1/7/
     We know that data is sent across the wire as binary bits.  We also know there is a specific way we can encode characters called ASCII.  In this lesson, we will work in pairs to invent a text formatting language that allows us to not only send text information but make it look pretty.  The challenge is that the simulator can only send ASCII characters, so the text formatting language can only use those values to represent the formatting and the data.
     
-        - Link to tool so you can send messages to your partner: http://studio.code.org/sections/CZYMXP
+       - Link to tool so you can send messages to your partner: http://studio.code.org/sections/CZYMXP
             
             + Login using the random words I gave you.
             
@@ -58,21 +58,32 @@ Also, the captions are correct which is nice for hearing impaired students or la
             + before working on the protocol, it is useful to just get used to how the tool works.  Send some messages to each other in plain text.  Be sure to look at how the data is encoded and the settings on your device to control packet size and bit rate.
             
             + now that you know how messages are sent, discuss with your partner the protocol for text markup and send some test messages.  Make sure your partner can correctly interpret your markup.
+            
+       - Discuss what you learned developing the protocol.  What did you like about using the tool?
+            
+       - Check out other tools in the internet simulator suite.
         
-        - How to create your own class so your students can do this activity
-        
-            + login as a teacher
+            + Stage 10 - routers
             
-            + teacher dashboard: https://code.org/teacher-dashboard#/
+            + Stage 11 - packets and reliability
             
-            + student accounts and progress > https://code.org/teacher-dashboard#/sections
+            + Stage 12 - dns
+
+    - How to create your own class so your students can do this activity
+    
+        + login as a teacher
             
-            + create the section
+        + teacher dashboard: https://code.org/teacher-dashboard#/
             
-            + manage students to create accounts
+        + student accounts and progress > https://code.org/teacher-dashboard#/sections
             
-            + you can use email addresses to create accounts or random words.  I used random words today to not conflict with actual accounts.  They can create a password list handout for easy account management!  :)
+        + create the section
             
-            + check out progress for your class.  My CT100 class from last semester: https://code.org/teacher-dashboard#/sections/810726/progress
-        
+        + manage students to create accounts
+            
+        + you can use email addresses to create accounts or random words.  I used random words today to not conflict with actual accounts.  They can create a password list handout for easy account management!  :)
+            
+        + check out progress for your class.  My CT100 class from last semester: https://code.org/teacher-dashboard#/sections/810726/progress
+           
+
         
