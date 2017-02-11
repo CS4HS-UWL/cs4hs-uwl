@@ -8,3 +8,4 @@ Agenda
 3. Activity - develop a protocol for text mark up.
 4. Cybersecurity
 5. Introduction to HTML, CSS, and Javascript
+  - see WebPageLanguages-Mao.pptx for slides, and JavaScriptCheatsheet.pdf for reference.
