@@ -26,7 +26,7 @@ Also, the captions are correct which is nice for hearing impaired students or la
     - The Internet: IP Addresses and DNS (https://www.youtube.com/watch?v=5o8CwafCxnU&t=39s)
     This video discusses the architecture and design of the internet, and how addresses are used to implement it.  IPv4, IPv6, and DNS are briefly discussed.  Ideas of hierarchies and distributing information are presented, along with possible attacks (DNS spoofing).
     
-    - The Internet: Packets, Routing, & Reliability (https://www.youtube.com/watch?v=5o8CwafCxnU&t=39s)
+    - The Internet: Packets, Routing, & Reliability (https://www.youtube.com/watch?v=AYdF7b3nMto&t=113s)
     This video discusses how large amounts of data are broken up, sent across the internet, and how they travel reliably.  Introduces ideas of data and headers, fault tolerance, and routing.
     
     - The Internet: Encryption and Public Keys (https://www.youtube.com/watch?v=ZghMPWGXexs)
