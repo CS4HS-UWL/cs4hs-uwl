@@ -1,0 +1,11 @@
+M001|It Happened One Night|Frank Capra
+M002|The Grapes of Wrath|John Ford
+M003|Mrs. Miniver|William Wyler
+M004|The Best Years of Our Lives|William Wyler
+M005|The Treasure of Sierra Madre|John Huston
+M006|The Quiet Man|John Ford
+M007|On the Waterfront|Elia Kazan
+M008|The Bridge on the River Kwai|David Lean
+M009|Lawrence of Arabia|David Lean
+M010|The Godfather Part II|Francis Ford Coppola
+M011|One Flew Over the Cuckoo's Nest|Milos Forman
