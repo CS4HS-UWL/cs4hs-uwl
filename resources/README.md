@@ -30,3 +30,4 @@ Below are some collections of resources that we have talked about throughout the
  - [Beauty and Joy of Computing](http://bjc.berkeley.edu/) (an implementation of AP CSP)
     - Uses Snap! as the basis for programming.
  - [CS Unplugged](http://csunplugged.org/)
+    - Activities that do not require a computer.  Aimed at a younger group, but can easily be adapted/extended for an older audience.
