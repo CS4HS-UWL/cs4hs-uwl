@@ -6,6 +6,7 @@ Below are some collections of resources that we have talked about throughout the
 ## Curricula
  - [Exploring Computer Science](http://www.exploringcs.org/)
  - [AP CSP](https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles)
+    - [Wikipedia table](https://en.wikipedia.org/wiki/AP_Computer_Science_Principles)
  - [AP Computer Science A](https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a)
 
 ## Programming Resources
