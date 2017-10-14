@@ -9,13 +9,23 @@ Below are some collections of resources that we have talked about throughout the
  - [AP Computer Science A](https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a)
 
 ## Programming Resources
- - [Scratch](https://scratch.mit.edu/)
- - [Snap!](http://snap.berkeley.edu/)
- - [App Inventor](http://appinventor.mit.edu/explore/)
+### Block based languages and resources
+ - [Scratch](https://scratch.mit.edu/) - classic block-based programming language.  Runs in the browser.
+ - [Snap!](http://snap.berkeley.edu/) - a reimplementation of Scratch with some more advanced language features (functions and lists).  Scratch has since added some of these features to the language.  Runs in the browser.
+ - [App Inventor](http://appinventor.mit.edu/explore/) - another block based language that can also be executed on an Android device.  An emulator is also available if you don't have or want to use an Android device.  Emulator does need to be downloaded.
+ - [Alice](https://www.alice.org/) - An object oriented block-based language.  Can also access the Java underneath the block-based implementation.  Requires a download.
+ 
+### Text-based languages and resources 
+ - [Python](https://www.python.org/) - Python 2.7 is more widely supported on systems, but Python 3.x is newer.  Python 3.x is not backward compatible.  There are several web/cloud based development environments for Python, including the following.
+ - Javascript - another popular text-based language used in the curricula mentioned above.  (need a link)
  - [Repl.it](https://repl.it/)
  - [PythonAnywhere](https://www.pythonanywhere.com/)
+ 
+ Many of these languages (block- and text-based) have libraries to drive various robots designed for education.
 
 ## Unplugged and Plugged Lessons
  - [Code.org](https://studio.code.org/courses?view=teacher) (several curricula, tools, lessons, videos)
+    - Code.org has their own block-based language that is similar to the others.  They also use Javascript for text-based programming.
  - [Beauty and Joy of Computing](http://bjc.berkeley.edu/) (an implementation of AP CSP)
+    - Uses Snap! as the basis for programming.
  - [CS Unplugged](http://csunplugged.org/)
