@@ -8,7 +8,7 @@ Below are some collections of resources that we have talked about throughout the
  - [AP CSP](https://apcentral.collegeboard.org/courses/ap-computer-science-principles?course=ap-computer-science-principles)
     - [Wikipedia table](https://en.wikipedia.org/wiki/AP_Computer_Science_Principles)
  - [AP Computer Science A](https://apcentral.collegeboard.org/courses/ap-computer-science-a?course=ap-computer-science-a)
- - [Curricula Comparison Document from Massachusetts](http://www.edc.org/massachusetts-k-12-computer-science-curriculum-guide)[PDF](http://www.edc.org/sites/default/files/uploads/CurriculumGuide-web.pdf)
+ - [Curricula Comparison Document from Massachusetts](http://www.edc.org/massachusetts-k-12-computer-science-curriculum-guide) - [PDF](http://www.edc.org/sites/default/files/uploads/CurriculumGuide-web.pdf)
 
 ## Programming Resources
 ### Block based languages and resources
