@@ -32,3 +32,9 @@ Below are some collections of resources that we have talked about throughout the
     - Uses Snap! as the basis for programming.
  - [CS Unplugged](http://csunplugged.org/)
     - Activities that do not require a computer.  Aimed at a younger group, but can easily be adapted/extended for an older audience.
+    
+# Diversity Resources
+ - [Cracking the Gender Code](https://girlswhocode.com/crack-the-code/) - report by Girls Who Code and Accenture on how to get girls involved in computing.  Hint: there is a HS gap that this group could help address.
+ - [NCWIT](https://www.ncwit.org/) - National Center for Women in Information Technology - many great resources on a variety of topics.  Also some funding for student groups and initiatives.
+ - [Aspirations Awards](https://www.aspirations.org/) - awards for high school girls who are interested in computing to get a scholarship and some other really cool opportunities through NCWIT.
+ - [Girls Who Code](https://girlswhocode.com/) - a program to help get girls to learn computing.  Targetting middle school and high school girls.  Possibly a program to recommend some students to pursue.  The public library in La Crosse has started an initiative and I know a former student who led one of the summer workshops in 2017.
