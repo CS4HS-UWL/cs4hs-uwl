@@ -1,0 +1,137 @@
+% Typeset with LaTeX format
+% Using AMS extensions for mathematical formatting
+
+%	The 'myarticle' class gives me a smaller title size
+%	This class should appear as 'article'
+%	in any submitted source file, so that others can
+%	properly format it.  Please change if it is not correct.
+%  	I use the 'leqno' option, for left-handed equation numbers.
+\documentclass[leqno,11pt]{article}
+%	To get all the formal devices, I usually use
+%	all of 'amsmath', 'amssymb', and 'amsthm'.
+%	There may also appear the packages
+%	'setspace' (for double-spacing)
+%	and 'mylogic' (for personal margins, headers, commands, etc.)
+%	These should NOT appear in any submitted source file.
+%	Please remove them if still here upon submission.
+\usepackage{amsmath,amssymb,amsthm,amscd,amsxtra,latexsym}
+\usepackage{notation}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+
+%---------------------------------------------
+%       OPTIONAL:  PAGE SPACING HERE
+%---------------------------------------------
+
+%\usepackage{setspace}
+%	The following line may be commented out
+% 	If so, it can be deleted without affecting anything.
+%	I use the command (with the 'setspace.sty' package)
+%	for alternative formatting (also \doublespacing).
+%	If this line is commented out, and 'setspace' is not in use,
+%	the document formats as usual for its class.
+%%\onehalfspacing
+
+%---------------------------------------------
+%       PAGE FORMAT (BORDERS/HEADERS)
+%---------------------------------------------
+
+%	Page format commands:
+%	Override normal article margins,
+%	making the margins smaller
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.5in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\topmargin}{0in}
+
+%	More format:
+\thispagestyle{empty}
+
+%---------------------------------------------
+%       DEFINED COMMANDS
+%---------------------------------------------
+
+%---------------------------------------------
+%       DOC STARTS HERE
+%---------------------------------------------
+
+\begin{document}
+
+\begin{center}
+{\large
+	\textbf{Reinforcement Learning Exercise}
+}
+
+\hrulefill
+\end{center}
+
+\noindent
+\textbf{Instructions:}  This exercise involves implementing a very simple reinforcement learning algorithm to
+learn a net-positive strategy in a simple card game.  While the player will start off playing randomly, and
+poorly, they will quickly converge on a strategy that has positive overall expectation.
+
+
+\begin{enumerate}
+	\item \textbf{Setting Up}: Two decks of cards are filled with an equal number of face cards (Jack,
+		Queen, King, Ace), where cards can repeat multiple times.  The two decks are shuffled, and
+		placed side by side.  (Code is supplied that will generate a simulation of this process and
+		display cards.) Each player is given a copy of the worksheet.  The player should fill in each of
+		the boxes in the top two columns with an initial $Q$-value of $0$.
+		
+	\item On each round of the game, the players turn over a card from the left-hand deck. They then choose
+		an action (either \texttt{Higher} or \texttt{Lower}).  This choice is handled as follows:
+		\begin{itemize}
+			\item Each player compares the two values in the row for the face-value of the card seen.
+				If one value is greater than the other, the corresponding action is chosen.
+				For instance, if the card is an \texttt{Ace} and the values under
+				\texttt{Higher} and \texttt{Lower} are $1$ and $0$, respectively, the player
+				chooses \texttt{Higher}.  (Note: these numbers can be positive or negative.)
+			\item If the two values are the same, then the player tosses a coin: if the coin comes
+				up Heads, they choose \texttt{Higher}, and else they choose \texttt{Lower}.
+		\end{itemize}
+		(The player may want to write down their choice.)
+
+	\item After the players choose their actions, the next card in the right-hand (opponent) deck is turned
+		over.  Scoring is handled as follows:
+		\begin{itemize}
+			\item If the player has chosen \texttt{Higher}, then:
+				\begin{itemize}
+					\item If the opponent card is higher than the player card, the player
+						wins.  They record a score of $+1$ in the next unfilled
+						box at the bottom of the sheet, and add $1$ to the
+						$Q$-value for \texttt{Higher} in the row 
+						with the face-value of the \textbf{player's card}.
+					\item If the opponent card is lower than the player card, the player
+						loses.  They record $-1$ in the next unfilled
+						box at the bottom of the sheet,  and subtract $1$ from the
+						$Q$-value for \texttt{Higher} in the row associated
+						with the face-value of the \textbf{player's card}.
+					\item If the two cards are the same, this is a tie.  The player records
+						a $0$ in the next unfilled box at the bottom of the sheet.  No
+						$Q$-value updates are needed.
+				\end{itemize}
+			\item If the player has chosen \texttt{Lower}, then:
+				\begin{itemize}
+					\item If the opponent card is lower than the player card, the player
+						wins.  They record a score of $+1$ in the next unfilled
+						box at the bottom of the sheet, and add $1$ to the
+						$Q$-value for \texttt{Lower} in the row 
+						with the face-value of the \textbf{player's card}.
+					\item If the opponent card is higher than the player card, the player
+						loses.  They record $-1$ in the next unfilled
+						box at the bottom of the sheet,  and subtract $1$ from the
+						$Q$-value for \texttt{Lower} in the row associated
+						with the face-value of the \textbf{player's card}.
+					\item If the two cards are the same, this is a tie.  The player records
+						a $0$ in the next unfilled box at the bottom of the sheet.  No
+						$Q$-value updates are needed.
+				\end{itemize}
+	
+		\end{itemize}
+\end{enumerate} 
+
+\end{document}
+ 
